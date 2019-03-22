@@ -1,3 +1,5 @@
+*Read this in other languages: [한국어](README-ko.md), [日本語](README-ja.md).*
+
 # Global-citizen
 
 The goal here is to build a 3-member blockchain application using the IBM Blockchain Platform, consisting of the following entities: an organization representing a government entity, an organization representing an NGO focused on the provision of aid, and an organization representing Global Citizen.
@@ -21,7 +23,7 @@ rm -rf credentials/
 
 4. Install composer-cli
 ```bash
-npm install -g composer-cli@0.19.5
+npm install -g composer-cli@0.20
 ```
 
 ## Steps
@@ -185,7 +187,7 @@ Use the links to get more information about [composer-playground](https://hyperl
 
 1. Install Composer-Playground:
 ```bash
-npm install -g composer-playground@0.19.5
+npm install -g composer-playground@0.20
 ```
 2. Now, let’s start up the server. Make sure you are in the same directory as your `connection-profile.json`
 ```bash
@@ -300,7 +302,7 @@ Government organizations periodically sends the funds to project by submitting `
 
 1. Install the composer-rest-server:
 ```bash
-npm install -g composer-rest-server@0.19.5
+npm install -g composer-rest-server@0.20
 ```
 
 2. Now, let’s start up the server. Make sure you are in the same directory as your `connection-profile.json`
@@ -325,4 +327,6 @@ composer-rest-server -c admin@global-citizens-network -n never -w true
 * [Hyperledger Composer Docs](https://hyperledger.github.io/composer/latest/introduction/introduction.html)
 
 ## License
-[Apache 2.0](LICENSE)
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
